@@ -406,7 +406,7 @@
       "version": "0.1.0"
     },
     "databricks-vector-search": {
-      "description": "Patterns for Databricks Vector Search: create endpoints and indexes, query with filters, manage embeddings. Use when building RAG applications, semantic search, or similarity matching. Covers both storage-optimized and standard endpoints.",
+      "description": "Databricks Vector Search endpoints and indexes for RAG and semantic search; covers index types, search modes, end-to-end RAG patterns",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -417,8 +417,8 @@
         "references/search-modes.md",
         "references/troubleshooting-and-operations.md"
       ],
-      "repo_dir": "experimental",
-      "version": "0.0.1"
+      "repo_dir": "skills",
+      "version": "0.1.0"
     },
     "databricks-zerobus-ingest": {
       "description": "Build Zerobus Ingest clients for near real-time data ingestion into Databricks Delta tables via gRPC. Use when creating producers that write directly to Unity Catalog tables without a message bus, working with the Zerobus Ingest SDK in Python/Java/Go/TypeScript/Rust, generating Protobuf schemas from UC tables, or implementing stream-based ingestion with ACK handling and retry logic.",
