@@ -818,6 +818,14 @@ When migration succeeds, generate a per-workload report with the same structure 
 
 When several independent workloads are in scope, migrate them in parallel (e.g. one subagent per workload). Keep the per-notebook steps within a single workload sequential, as in Step 1.5.
 
+## Success report
+
+If the migration was successful, generate a report as well, using similar methods. For each workload migrated, show what was done.
+
+## Multiple workload migration
+
+When migrating multiple workloads in one session, parallelize this work as much as possible to migrate multiple workloads in parallel, including using subagents.
+
 ## Reference Guides
 
 For detailed workarounds and code examples beyond the quick fixes above:
