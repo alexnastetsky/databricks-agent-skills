@@ -158,8 +158,7 @@
         "assets/databricks.svg",
         "references/1-databricks-connect.md",
         "references/2-serverless-job.md",
-        "references/3-interactive-cluster.md",
-        "scripts/compute.py"
+        "references/3-interactive-cluster.md"
       ],
       "repo_dir": "experimental",
       "version": "0.1.0"
