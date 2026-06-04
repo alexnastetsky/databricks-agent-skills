@@ -338,6 +338,10 @@
         "references/code-patterns.md",
         "references/compatibility-checks.md",
         "references/configuration-guide.md",
+        "references/failure-reporting.md",
+        "references/install-in-databricks-genie-code.md",
+        "references/mlflow-uc-patterns.md",
+        "references/multi-source-enumeration.md",
         "references/networking-and-security.md",
         "references/streaming-migration.md"
       ],
